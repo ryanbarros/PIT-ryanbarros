@@ -1,0 +1,131 @@
+/* -----------------------------------------------RESET----------------------------------------------- */
+@import url('https://fonts.googleapis.com/css2? family= Merienda:wght@400;700 & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #493A5B;
+}
+
+/* -----------------------------------------------HEADER----------------------------------------------- */
+header{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+ }
+
+ul{
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+    list-style: none;
+
+}
+
+li>a{
+    text-decoration: none;
+    color: white;
+    font-size: 23px;
+    font-weight: 700;
+    text-shadow: 4px 4px 10px red;
+    font-family: 'Bungee', sans-serif;
+}
+
+/* -----------------------------------------------Respirações----------------------------------------------- */
+
+
+section{
+    display: flex;
+    align-items: center;
+    height: 92vh;
+    justify-content: space-around;
+}
+
+.box-img-respiracao{
+   
+    width: 600px;
+    height: 420px;
+    box-sizing: content-box;
+}
+
+.img-respiracao{
+    border: 10px solid black;
+    width: 600px;
+    height: 420px;
+    border-radius: 50px;
+}
+
+.box-title-respiracao{
+    width: 550px;
+}
+
+.box-title-respiracao > h1{
+    margin-bottom: 50px;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+.box-title-respiracao > p{
+    text-align: justify;
+    line-height: 45px;
+    color: white;
+    font-size: 1.8em;
+    font-weight: 700;
+    text-shadow: 3px 2px 4px black;
+    font-family: 'Merienda', cursive;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 300px) and (max-width: 1400px){
+    header{
+        display: block;
+    }
+
+    ul{
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+
+
+
+    section{
+        flex-direction: column-reverse;
+        margin: 200px 0;
+        height: auto;
+    }
+
+
+    .box-img-respiracao{
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .img-respiracao{
+        width: 80%;
+        height: auto;
+       
+    }
+
+
+    .box-title-respiracao{
+        width: 450px;
+    }
+}
