@@ -56,10 +56,10 @@ section{
 }
 
 .img-respiracao{
-    border: 10px solid black;
+    border: 8px solid black;
     width: 600px;
     height: 420px;
-    border-radius: 50px;
+    border-radius: 40px;
 }
 
 .box-title-respiracao{
@@ -82,7 +82,14 @@ section{
     font-family: 'Merienda', cursive;
 }
 
-
+.box-title-respiracao > p > a,span{
+    text-decoration: none;  
+    background-color: #1e1725;
+    border: 4px solid black;  
+    padding: 7px;
+    border-radius: 15px;
+    color: white;
+}
 
 
 
@@ -103,29 +110,42 @@ section{
         margin: 0 auto;
     }
 
-
+    li{
+        margin: 30px 0;
+        border: 3px solid red;
+    }
 
 
     section{
         flex-direction: column-reverse;
-        margin: 200px 0;
+        margin: 130px 0;
         height: auto;
     }
 
 
     .box-img-respiracao{
         text-align: center;
+        width: auto;
         margin-top: 30px;
     }
 
     .img-respiracao{
-        width: 80%;
-        height: auto;
-       
+        width: 87%;
+        height: 250px;
     }
 
 
     .box-title-respiracao{
-        width: 450px;
+        width: 86%;
+        margin: 25px;
     }
+
+
+    .box-title-respiracao > p{
+        text-align: left;
+        line-height: 40px;
+        color: white;
+        font-size: 20px;
+    }
+    
 }
